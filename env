@@ -31,4 +31,4 @@ cd () {
   echo $PWD > ~/.pwd;
 }
 
-if [[ -f ~/.pwd ]] ; then cd `cat ~/.pwd` ; fi
+if [[ -f ~/.pwd ]] ; then cd "`cat ~/.pwd`" ; fi
