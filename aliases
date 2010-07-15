@@ -9,3 +9,4 @@ alias la="ls -a"
 alias ll="ls -lah"
 
 alias r="rails"
+alias gx="gitx"
