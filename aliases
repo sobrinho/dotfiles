@@ -6,6 +6,10 @@ alias l="ls"
 alias la="ls -a"
 alias ll="ls -lah"
 
+alias mv="mv -i"
+alias cp="cp -i"
+alias rm="rm -i"
+
 alias r="rails"
 alias sa="script/autospec"
 alias ss="script/server"
