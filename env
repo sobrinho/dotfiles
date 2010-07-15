@@ -1,3 +1,4 @@
+# texmate
 export EDITOR="mate -w"
 
 # mysql
@@ -31,4 +32,9 @@ cd () {
   echo $PWD > ~/.pwd;
 }
 
-if [[ -f ~/.pwd ]] ; then cd "`cat ~/.pwd`" ; fi
+[[ -f ~/.pwd ]] && cd "`cat ~/.pwd`"
+
+# projects
+for project in $HOME/dotfiles/projects.d/*.sh ; do
+  [[ -x "$project" ]] && . $project
+done
