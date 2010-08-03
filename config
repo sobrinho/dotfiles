@@ -56,4 +56,4 @@ __gemset () {
   echo $GEM_PATH | cut -d@ -f2 | cut -d: -f1
 }
 
-PS1="\n\w $GREEN\$(__git_ps1 ' [%s] ')$YELLOW[\$(__ruby_version)] $BLUE[\$(__gemset)] \n$RESET\$ "
+PS1="\n\w $RED\$(__git_ps1 ' [%s] ')$YELLOW[\$(__ruby_version)] $GREEN[\$(__gemset)] \n$RESET\$ "
