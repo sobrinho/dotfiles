@@ -18,3 +18,4 @@ alias bi="bundle install"
 alias bir="bundle install --relock"
 
 alias gx="gitx"
+alias gk="gitk"
