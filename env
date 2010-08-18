@@ -35,6 +35,6 @@ cd () {
 [[ -f ~/.pwd ]] && cd "`cat ~/.pwd`"
 
 # projects
-for project in $HOME/dotfiles/projects.d/*.sh ; do
+for project in $HOME/github/dotfiles/projects.d/*.sh ; do
   [[ -x "$project" ]] && . $project
 done
