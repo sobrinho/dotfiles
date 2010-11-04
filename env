@@ -4,6 +4,9 @@ export EDITOR="mate -w"
 # mysql
 export PATH=/usr/local/mysql/bin:$PATH
 
+# homebrew
+export PATH=$HOME/.brew/bin:$PATH
+
 # rvm
 [[ -s $HOME/.rvm/scripts/rvm ]] && source $HOME/.rvm/scripts/rvm
 [[ -r $rvm_path/scripts/completion ]] && source $rvm_path/scripts/completion
