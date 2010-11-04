@@ -18,3 +18,5 @@ alias bi="bundle install"
 
 alias gx="gitx"
 alias gk="gitk"
+
+alias lock="open /System/Library/Frameworks/ScreenSaver.framework/Versions/A/Resources/ScreenSaverEngine.app"
