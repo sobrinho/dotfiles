@@ -1,2 +1,2 @@
---type-add=ruby=.haml,.rake
+--type-add=ruby=.haml,.rake,.ru
 --type-add=css=.less,.sass,.scss
