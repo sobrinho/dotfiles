@@ -11,6 +11,7 @@ alias cp="cp -i"
 alias rm="rm -i"
 
 alias r="rails"
+alias b="bundle"
 
 alias gx="gitx"
 alias gk="gitk"
