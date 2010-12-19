@@ -11,10 +11,6 @@ alias cp="cp -i"
 alias rm="rm -i"
 
 alias r="rails"
-alias sa="script/autospec"
-alias ss="script/server"
-alias sc="script/console"
-alias bi="bundle install"
 
 alias gx="gitx"
 alias gk="gitk"
