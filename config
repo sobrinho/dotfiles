@@ -52,4 +52,4 @@ __gemset () {
   echo $GEM_PATH | cut -d@ -f2 | cut -d: -f1
 }
 
-PS1="\n\w $RED\$(__git_ps1 ' [%s] ')$YELLOW[\$(echo $RUBY_VERSION)] $GREEN[\$(__gemset)] \n$RESET\$ "
+PS1="\n\w $RED[\$(git branch --no-color 2>/dev/null | grep \* | tr -d \*\ )] $YELLOW[\$(echo $RUBY_VERSION)] $GREEN[\$(__gemset)] \n$RESET\$ "
