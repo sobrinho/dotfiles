@@ -44,8 +44,10 @@ BRIGHT_VIOLET="\[$ESC[${BRIGHT};${FG_VIOLET}m\]"
 BRIGHT_CYAN="\[$ESC[${BRIGHT};${FG_CYAN}m\]"
 BRIGHT_WHITE="\[$ESC[${BRIGHT};${FG_WHITE}m\]"
 
-__gemset () {
-  echo $GEM_PATH | cut -d@ -f2 | cut -d: -f1
+__rvm_gemset () {
+  if [ -n "$rvm_gemset_name" ]; then
+    printf $1 "$rvm_gemset_name"
+  fi;
 }
 
-PS1="\n\w $RED\$(__git_ps1 '[%s] ')$YELLOW[\$(echo $rvm_ruby_string)] $GREEN[\$(__gemset)] \n$RESET\$ "
+PS1="\n\w $RED\$(__git_ps1 '[%s] ')$YELLOW[\$(echo $rvm_ruby_string)] $GREEN\$(__rvm_gemset '[%s] ')\n$RESET\$ "
