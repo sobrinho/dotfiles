@@ -32,7 +32,7 @@ done
 
 for (( $OPTIND; $OPTIND-1; OPTIND=$OPTIND-1 )); do shift; done
 
-if [[ -d "$1" ]]; then WD=$(cd "$1"; pwd); shift; else WD=$PWD; fi
+if [[ -d "$1" ]]; then WD=$1; shift; else WD=$PWD; fi
 
 
 COMMAND="cd '$WD'"
