@@ -48,7 +48,7 @@ osascript <<EOF
 		do script with command "$COMMAND $EXIT"
 		$POSITION
 		$SIZE
-	end tell
+	end
 EOF
 
 else
@@ -62,7 +62,7 @@ osascript 2>/dev/null <<EOF
 		do script with command "$COMMAND $EXIT" in window 1
 		$POSITION
 		$SIZE
-	end tell
+	end
 EOF
 
 fi
