@@ -1,4 +1,4 @@
-source ~/github/dotfiles/env
-source ~/github/dotfiles/config
-source ~/github/dotfiles/aliases
-source ~/github/dotfiles/ruby
+source ~/Code/dotfiles/env
+source ~/Code/dotfiles/config
+source ~/Code/dotfiles/aliases
+source ~/Code/dotfiles/ruby
