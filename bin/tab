@@ -37,7 +37,7 @@ if [[ -d "$1" ]]; then WD=$1; shift; else WD=$PWD; fi
 
 COMMAND="cd '$WD'"
 for i in "$@"; do
-	COMMAND="$COMMAND '$i'"
+	COMMAND="$COMMAND; $i"
 done
 
 if [ $WINDOW ]; then
