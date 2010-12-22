@@ -1,10 +1,7 @@
 # texmate
 export EDITOR="mate -w"
 
-# mysql
-export PATH=/usr/local/mysql/bin:$PATH
-
-# homebrew
+# brew
 export PATH=$HOME/.brew/bin:$PATH
 
 # rvm
