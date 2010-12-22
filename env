@@ -6,6 +6,7 @@ export PATH=$HOME/.brew/bin:$PATH
 
 # colors
 export CLICOLOR=1
+export LSCOLORS=dxfxcxdxbxegedabagacad
 export GREP_COLOR="4;33"
 
 # rvm
