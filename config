@@ -44,9 +44,12 @@ BRIGHT_VIOLET="\[$ESC[${BRIGHT};${FG_VIOLET}m\]"
 BRIGHT_CYAN="\[$ESC[${BRIGHT};${FG_CYAN}m\]"
 BRIGHT_WHITE="\[$ESC[${BRIGHT};${FG_WHITE}m\]"
 
-# works with rvm
+__git_branch () {
+  git branch --no-color 2>/dev/null | grep \* | tr -d \*\ 
+}
+
 __gemset () {
   echo $GEM_PATH | cut -d@ -f2 | cut -d: -f1
 }
 
-PS1="\n\w $RED[\$(git branch --no-color 2>/dev/null | grep \* | tr -d \*\ )] $YELLOW[\$(echo $RUBY_VERSION)] $GREEN[\$(__gemset)] \n$RESET\$ "
+PS1="\n\w $RED[\$(__git_branch)] $YELLOW[\$(echo $rvm_ruby_string)] $GREEN[\$(__gemset)] \n$RESET\$ "
