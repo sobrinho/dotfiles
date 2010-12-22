@@ -2,7 +2,7 @@
 export EDITOR="mate -w"
 
 # brew
-export PATH=$HOME/.brew/bin:$PATH
+export PATH=$HOME/.brew/bin:$HOME/Code/dotfiles/bin:$PATH
 
 # colors
 export CLICOLOR=1
