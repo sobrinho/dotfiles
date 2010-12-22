@@ -4,6 +4,10 @@ export EDITOR="mate -w"
 # brew
 export PATH=$HOME/.brew/bin:$PATH
 
+# colors
+export CLICOLOR=1
+export GREP_COLOR="4;33"
+
 # rvm
 [[ -s $HOME/.rvm/scripts/rvm ]] && source $HOME/.rvm/scripts/rvm
 [[ -r $rvm_path/scripts/completion ]] && source $rvm_path/scripts/completion
