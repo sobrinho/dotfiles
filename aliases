@@ -12,6 +12,7 @@ alias rm="rm -i"
 
 alias r="rails"
 alias b="bundle"
+alias u="unicorn"
 
 alias gx="gitx"
 alias gk="gitk"
