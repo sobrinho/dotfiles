@@ -4,6 +4,9 @@ export EDITOR="mate -w"
 # brew
 export PATH=$HOME/.brew/bin:$HOME/Code/dotfiles/bin:$PATH
 
+# node.js
+export NODE_PATH=$HOME/.brew/lib/node
+
 # colors
 export CLICOLOR=1
 export LSCOLORS=dxfxcxdxbxegedabagacad
