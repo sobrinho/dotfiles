@@ -56,4 +56,4 @@ __rvm_ruby () {
   fi;
 }
 
-PS1="\n\w $RED\$(__git_ps1 '[%s] ')$YELLOW\$(__rvm_ruby '[%s] ')$GREEN\$(__rvm_gemset '[%s]')\n$RESET\$ "
+PS1="\n\w $RED\$(__git_ps1 '[%s] ')$YELLOW\$(__rvm_ruby '[%s] ')$GREEN\$(__rvm_gemset '[%s]')\n$BLUE\$(date '+%H:%M:%S') $RESET\$ "
