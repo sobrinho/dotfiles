@@ -1,2 +1,2 @@
 #!/bin/sh
-find $1 -type f -exec gsed -i 's/ *$//' '{}' ';'
+find "$1" -type f -exec gsed -i 's/ *$//' '{}' ';'
