@@ -5,7 +5,10 @@ export LANG=pt_BR.UTF-8
 export EDITOR="mate -w"
 
 # brew
-export PATH=$HOME/.brew/bin:$HOME/Code/dotfiles/bin:$PATH
+export PATH=$HOME/.brew/bin:$PATH
+
+# dotfiles
+export PATH=$HOME/Code/dotfiles/bin:$PATH
 
 # node.js
 export NODE_PATH=$HOME/.brew/lib/node
