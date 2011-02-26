@@ -18,9 +18,5 @@ export CLICOLOR=1
 export LSCOLORS=dxfxcxdxbxegedabagacad
 export GREP_COLOR="4;33"
 
-# rvm
-[[ -s $HOME/.rvm/scripts/rvm ]] && source $HOME/.rvm/scripts/rvm
-[[ -r $rvm_path/scripts/completion ]] && source $rvm_path/scripts/completion
-
 # projects
 export CDPATH=$CDPATH:$HOME/Code
