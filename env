@@ -20,6 +20,4 @@ export GREP_COLOR="4;33"
 [[ -r $rvm_path/scripts/completion ]] && source $rvm_path/scripts/completion
 
 # projects
-for project in $HOME/Code/dotfiles/projects.d/*.sh ; do
-  [[ -x "$project" ]] && . $project
-done
+export CDPATH=$HOME/Code
