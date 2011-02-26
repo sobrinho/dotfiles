@@ -23,4 +23,4 @@ export GREP_COLOR="4;33"
 [[ -r $rvm_path/scripts/completion ]] && source $rvm_path/scripts/completion
 
 # projects
-export CDPATH=$HOME/Code
+export CDPATH=$CDPATH:$HOME/Code
