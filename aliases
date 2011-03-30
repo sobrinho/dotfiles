@@ -15,7 +15,12 @@ alias r="rails"
 alias b="bundle"
 alias p="passenger"
 
+alias g="git"
 alias gx="gitx"
 alias gk="gitk"
+
+alias pull="git pull"
+alias push="git push"
+alias branch="git branch"
 
 alias lock="open /System/Library/Frameworks/ScreenSaver.framework/Versions/A/Resources/ScreenSaverEngine.app"
