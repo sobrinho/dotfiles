@@ -2,7 +2,7 @@
 export LANG=pt_BR.UTF-8
 
 # texmate
-export EDITOR="mate -w"
+export EDITOR="mvim -f"
 
 # brew
 export PATH=$HOME/.brew/bin:$PATH
