@@ -18,11 +18,7 @@ alias p="passenger"
 
 alias g="git"
 alias gx="gitx"
-alias gk="gitk"
-
 alias pull="git pull"
 alias push="git push"
-alias branch="git branch"
-alias checkout="git checkout"
 
 alias lock="open /System/Library/Frameworks/ScreenSaver.framework/Versions/A/Resources/ScreenSaverEngine.app"
