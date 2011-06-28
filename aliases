@@ -18,6 +18,7 @@ alias p="passenger"
 
 alias g="git"
 alias gx="gitx"
+alias gh="github"
 alias pull="git pull"
 alias push="git push"
 
