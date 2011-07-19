@@ -7,9 +7,6 @@ export EDITOR="mvim -f"
 # brew
 export PATH=$HOME/.brew/bin:$PATH
 
-# dotfiles
-export PATH=$HOME/Code/dotfiles/bin:$PATH
-
 # node.js
 export NODE_PATH=`brew --prefix`/lib/node
 
