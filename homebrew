@@ -1,0 +1,12 @@
+#!/bin/env bash
+export PATH=$HOME/.brew/bin:$PATH
+
+# bash-completion
+if [ -f `brew --prefix`/etc/bash_completion ]; then
+  source `brew --prefix`/etc/bash_completion
+fi
+
+# node
+if [ -d `brew --prefix`/lib/node ]; then
+  export NODE_PATH=`brew --prefix`/lib/node
+fi
