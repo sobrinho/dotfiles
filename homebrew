@@ -1,4 +1,8 @@
 #!/bin/env bash
+if [ ! -d $HOME/.brew ]; then
+  return
+fi
+
 export PATH=$HOME/.brew/bin:$PATH
 
 # bash-completion
