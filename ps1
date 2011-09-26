@@ -1,11 +1,11 @@
 #!/bin/env bash
 
 # colors
-RED="\e[31m"
-GREEN="\e[32m"
-YELLOW="\e[33m"
-BLUE="\e[34m"
-RESET="\e[0m"
+RED="\[\033[0;31m\]"
+GREEN="\[\033[0;32m\]"
+YELLOW="\[\033[0;33m\]"
+BLUE="\[\033[0;34m\]"
+RESET="\[\033[0;00m\]"
 
 # fetch current gemset name from rvm
 __rvm_gemset () {
