@@ -21,6 +21,6 @@ __rvm_ruby () {
   fi
 }
 
-# ~/Code/dotfiles (master) (ruby-1.9.2-p290) (rails3)
+# ~/Code/dotfiles  (ruby-1.9.2-p290)  (rails3)  (master)
 # 21:04:29 $ ...
-PS1="\n\w $RED\$(__git_ps1 '(%s) ')$YELLOW\$(__rvm_ruby '(%s) ')$GREEN\$(__rvm_gemset '(%s)')\n$BLUE\$(date '+%H:%M:%S') $RESET\$ "
+PS1="\n\w  $GREEN\$(__rvm_ruby '(%s)') $YELLOW\$(__rvm_gemset ' (%s) ') $RED\$(__git_ps1 '(%s)')\n$BLUE\$(date '+%H:%M:%S') $RESET\$ "
