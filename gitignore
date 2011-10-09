@@ -1,5 +1,6 @@
 .DS_Store
 .rvmrc
+.rbenv-version
 .sass-cache
 *sw?
 tmp/restart.txt

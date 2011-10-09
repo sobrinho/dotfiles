@@ -1,0 +1,4 @@
+#!/bin/env bash
+if [ -d $HOME/.ruby-build/bin ]; then
+  export PATH=$HOME/.ruby-build/bin:$PATH
+fi
