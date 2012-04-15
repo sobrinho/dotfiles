@@ -17,7 +17,6 @@ alias rk="rake"
 alias b="bundle"
 alias u="unicorn"
 
-alias gh="github"
 alias pull="git pull"
 alias push="git push"
 alias rebase="git rebase"
