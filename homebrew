@@ -6,11 +6,11 @@ fi
 export PATH=$HOME/.brew/bin:$PATH
 
 # bash-completion
-if [ -f `brew --prefix`/etc/bash_completion ]; then
-  source `brew --prefix`/etc/bash_completion
+if [ -f $HOME/.brew/etc/bash_completion ]; then
+  source $HOME/.brew/etc/bash_completion
 fi
 
 # node
-if [ -d `brew --prefix`/lib/node ]; then
-  export NODE_PATH=`brew --prefix`/lib/node
+if [ -d $HOME/.brew/lib/node ]; then
+  export NODE_PATH=$HOME/.brew/lib/node
 fi
