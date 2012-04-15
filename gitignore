@@ -3,4 +3,5 @@
 .rbenv-version
 .sass-cache
 *sw?
+*pyc
 tmp/restart.txt
