@@ -1,9 +1,14 @@
 #!/bin/env bash
-if [ ! -d $HOME/.brew ]; then
-  return
+
+# attach homebrew bin path
+if [ -d $HOME/.brew/bin ]; then
+  export PATH=$HOME/.brew/bin:$PATH
 fi
 
-export PATH=$HOME/.brew/bin:$PATH
+# attach homebrew sbin path
+if [ -d $HOME/.brew/sbin ]; then
+  export PATH=$HOME/.brew/sbin:$PATH
+fi
 
 # bash-completion
 if [ -f $HOME/.brew/etc/bash_completion ]; then
