@@ -15,7 +15,7 @@ if [ -f $HOME/.brew/etc/bash_completion ]; then
   source $HOME/.brew/etc/bash_completion
 fi
 
-# node
+# node.js
 if [ -d $HOME/.brew/lib/node ]; then
   export NODE_PATH=$HOME/.brew/lib/node
 fi
