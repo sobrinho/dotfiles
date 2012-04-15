@@ -1,8 +1,0 @@
-#!/bin/env bash
-if [ -f $HOME/.rvm/scripts/rvm ]; then
-  source $HOME/.rvm/scripts/rvm
-fi
-
-if [ -f $rvm_path/scripts/completion ]; then
-  source $rvm_path/scripts/completion
-fi
