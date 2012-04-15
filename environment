@@ -1,12 +1,5 @@
 #!/bin/env bash
 
-# editor
-if command -v mvim > /dev/null; then
-  export EDITOR="mvim -f"
-else
-  export EDITOR="vim"
-fi
-
 # colors
 export CLICOLOR=1
 export LSCOLORS=dxfxcxdxbxegedabagacad
