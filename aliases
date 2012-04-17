@@ -17,10 +17,6 @@ alias rk="rake"
 alias b="bundle"
 alias u="unicorn"
 
-alias unicorn_start="bundle exec unicorn -c config/unicorn.rb -D"
-alias unicorn_reload="kill -USR2 \$(cat tmp/pids/unicorn.pid)"
-alias unicorn_stop="kill \$(cat tmp/pids/unicorn.pid)"
-
 alias pull="git pull"
 alias push="git push"
 alias rebase="git rebase"
