@@ -4,3 +4,5 @@ export LSCOLORS=dxfxcxdxbxegedabagacad
 export GREP_COLOR="4;33"
 
 export CDPATH=$CDPATH:$HOME/Code
+
+export EDITOR=vim
