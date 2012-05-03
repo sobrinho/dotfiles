@@ -1,2 +1,2 @@
---type-add=ruby=.haml,.rake,.ru,.gemspec
+--type-add=ruby=.haml,.rake,.ru,.gemspec,.jbuilder
 --type-add=css=.less,.sass,.scss
