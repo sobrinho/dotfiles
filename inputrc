@@ -1,3 +1,7 @@
 # this makes the "delete" key work rather than
 # just entering a ~
 "\e[3~": delete-char
+
+# this lets you hit tab to auto-complete a file or
+# directory name ignoring case
+set completion-ignore-case On
