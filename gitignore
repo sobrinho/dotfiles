@@ -1,8 +1,7 @@
+*.pyc
+*.swp
 .DS_Store
-.rvmrc
 .rbenv-version
+.rvmrc
 .sass-cache
-*sw?
-*pyc
-nbproject
-tmp/restart.txt
+vendor/bundle
