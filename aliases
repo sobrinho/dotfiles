@@ -13,9 +13,4 @@ alias mv="mv -i"
 alias cp="cp -i"
 alias rm="rm -i"
 
-alias r="rails"
-alias rk="rake"
-alias b="bundle"
-alias u="unicorn"
-
 alias lock="open /System/Library/Frameworks/ScreenSaver.framework/Versions/A/Resources/ScreenSaverEngine.app"
