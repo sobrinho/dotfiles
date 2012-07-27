@@ -5,11 +5,6 @@ if [ -d $HOME/.brew/bin ]; then
   export PATH=$HOME/.brew/bin:$PATH
 fi
 
-# attach homebrew sbin path
-if [ -d $HOME/.brew/sbin ]; then
-  export PATH=$HOME/.brew/sbin:$PATH
-fi
-
 # bash-completion
 if [ -f $HOME/.brew/etc/bash_completion ]; then
   source $HOME/.brew/etc/bash_completion
