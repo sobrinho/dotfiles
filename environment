@@ -1,6 +1,5 @@
 #!/bin/env bash
 export CLICOLOR=1
-export GREP_COLOR="4;33"
 
 export CDPATH=$CDPATH:$HOME/Code
 
