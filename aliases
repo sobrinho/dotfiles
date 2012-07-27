@@ -4,6 +4,7 @@ alias egrep="egrep --color"
 
 alias tailf="tail -f"
 
+alias ls="ls -G"
 alias l="ls"
 alias la="ls -a"
 alias ll="ls -lah"

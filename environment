@@ -1,6 +1,4 @@
 #!/bin/env bash
-export CLICOLOR=1
-
 export CDPATH=$CDPATH:$HOME/Code
 
 export EDITOR=vim
