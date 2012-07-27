@@ -17,8 +17,4 @@ alias rk="rake"
 alias b="bundle"
 alias u="unicorn"
 
-alias pull="git pull"
-alias push="git push"
-alias rebase="git rebase"
-
 alias lock="open /System/Library/Frameworks/ScreenSaver.framework/Versions/A/Resources/ScreenSaverEngine.app"
