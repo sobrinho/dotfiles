@@ -1,4 +1,2 @@
 #!/bin/env bash
-export CDPATH=$CDPATH:$HOME/Code
-
 export EDITOR=vim
