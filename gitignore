@@ -3,6 +3,7 @@
 .DS_Store
 .env
 .rbenv-version
+.ruby-version
 .rvmrc
 .sass-cache
 vendor/bundle
