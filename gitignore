@@ -1,6 +1,7 @@
 *.pyc
 *.swp
 .DS_Store
+.env
 .rbenv-version
 .rvmrc
 .sass-cache
