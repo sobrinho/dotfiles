@@ -3,5 +3,6 @@ ln -si $PWD/ackrc ~/.ackrc
 ln -si $PWD/bash_profile ~/.bash_profile
 ln -si $PWD/gemrc ~/.gemrc
 ln -si $PWD/gitignore ~/.gitignore
+ln -si $PWD/screenrc ~/.screenrc
 
 git config --global core.excludesfile ~/.gitignore
