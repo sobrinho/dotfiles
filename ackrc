@@ -1,5 +1,0 @@
---type-add=ruby=.haml,.rake,.ru,.gemspec,.jbuilder,.builder
---type-add=css=.less,.sass,.scss
---type-add=php=.phtml
---type-set=coffeescript=.coffee
---type-set=gherkin=.feature
