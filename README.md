@@ -17,4 +17,4 @@ And run the install:
 
 ## License
 
-Copyright (c) 2011-2012 Gabriel Sobrinho, released under the MIT license.
+Copyright (c) 2011-2013 Gabriel Sobrinho, released under the MIT license.
