@@ -1,16 +1,16 @@
 #!/bin/env bash
 
 # attach homebrew bin path
-if [ -d $HOME/.brew/bin ]; then
-  export PATH=$HOME/.brew/bin:$PATH
+if [ -d /usr/local/bin ]; then
+  export PATH=/usr/local/bin:$PATH
 fi
 
 # attach homebrew sbin path
-if [ -d $HOME/.brew/sbin ]; then
-  export PATH=$HOME/.brew/sbin:$PATH
+if [ -d /usr/local/sbin ]; then
+  export PATH=/usr/local/sbin:$PATH
 fi
 
 # bash-completion
-if [ -f $HOME/.brew/etc/bash_completion ]; then
-  source $HOME/.brew/etc/bash_completion
+if [ -f /usr/local/etc/bash_completion ]; then
+  source /usr/local/etc/bash_completion
 fi
