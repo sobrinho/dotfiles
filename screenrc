@@ -1,3 +1,4 @@
 startup_message off
 altscreen on
 hardstatus alwayslastline '%{= kG}%{g}[ %{G}%H %{g}][%= %{= kw}%?%-Lw%?%{r}(%{W}%n*%f%t%?(%u)%?%{r})%{w}%?%+Lw%?%?%= %{g}][%{B} %d/%m %{W}%c %{g}]'
+defscrollback 10000
