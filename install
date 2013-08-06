@@ -1,7 +1,14 @@
 #!/bin/env bash
+
+# Link our dotfiles
 ln -si $PWD/bash_profile ~/.bash_profile
 ln -si $PWD/gemrc ~/.gemrc
 ln -si $PWD/gitignore ~/.gitignore
 ln -si $PWD/screenrc ~/.screenrc
 
+# Bootstrap the git configuration
+# For reference, see http://git-scm.com/docs/git-config.html
 git config --global core.excludesfile ~/.gitignore
+git config --global push.default simple
+gic config --global color.ui auto
+git config --global alias.amend commit --amend
