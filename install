@@ -4,6 +4,7 @@
 ln -si $PWD/bash_profile ~/.bash_profile
 ln -si $PWD/gemrc ~/.gemrc
 ln -si $PWD/gitignore ~/.gitignore
+ln -si $PWD/irbrc ~/.irbrc
 ln -si $PWD/screenrc ~/.screenrc
 
 # Bootstrap the git configuration
