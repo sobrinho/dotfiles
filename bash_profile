@@ -1,4 +1,4 @@
-#!/bin/env bash
+#!/usr/bin/env bash
 BASH_PROFILE_PATH=$(readlink "$BASH_SOURCE")
 
 # Canonicalize the bash_profile link. This is necessary because the bsd
