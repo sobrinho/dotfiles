@@ -1,4 +1,4 @@
-#!/bin/env bash
+#!/usr/bin/env bash
 
 # Link our dotfiles
 ln -si $PWD/bash_profile ~/.bash_profile
