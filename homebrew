@@ -13,4 +13,6 @@ fi
 # bash-completion
 if [ -f /usr/local/etc/bash_completion ]; then
   source /usr/local/etc/bash_completion
+elif [ -f /etc/bash_completion ]; then
+  source /etc/bash_completion
 fi
