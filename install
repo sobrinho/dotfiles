@@ -1,11 +1,14 @@
 #!/usr/bin/env bash
 
 # Link our dotfiles
+mkdir -p ~/.ssh
+
 ln -si $PWD/bash_profile ~/.bash_profile
 ln -si $PWD/gemrc ~/.gemrc
 ln -si $PWD/gitignore ~/.gitignore
 ln -si $PWD/irbrc ~/.irbrc
 ln -si $PWD/screenrc ~/.screenrc
+ln -si $PWD/sshrc ~/.ssh/rc
 
 # Bootstrap the git configuration
 # For reference, see http://git-scm.com/docs/git-config.html

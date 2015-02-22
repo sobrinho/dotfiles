@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# Keeps the ssh auth sock in a predictable location to avoid losing it on screen
+# See http://superuser.com/questions/180148/how-do-you-get-screen-to-automatically-connect-to-the-current-ssh-agent-when-re
+if [ -S "$SSH_AUTH_SOCK" ]; then
+  ln -sf "$SSH_AUTH_SOCK" ~/.ssh/ssh_auth_sock
+fi
