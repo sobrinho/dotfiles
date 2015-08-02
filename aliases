@@ -5,12 +5,6 @@ alias egrep="egrep --color"
 alias tailf="tail -f"
 
 alias ls="ls -G"
-alias l="ls"
-alias la="ls -a"
-alias ll="ls -lah"
-
 alias mv="mv -i"
 alias cp="cp -i"
 alias rm="rm -i"
-
-alias lock="open /System/Library/Frameworks/ScreenSaver.framework/Versions/A/Resources/ScreenSaverEngine.app"
