@@ -2,7 +2,3 @@ startup_message off
 altscreen on
 hardstatus alwayslastline '%{= kG}%{g}[ %{G}%H %{g}][%= %{= kw}%?%-Lw%?%{r}(%{W}%n*%f%t%?(%u)%?%{r})%{w}%?%+Lw%?%?%= %{g}][%{B} %d/%m %{W}%c %{g}]'
 defscrollback 10000
-
-# Keeps the ssh auth sock in a predictable location to avoid losing it on screen
-# See http://superuser.com/questions/180148/how-do-you-get-screen-to-automatically-connect-to-the-current-ssh-agent-when-re
-setenv SSH_AUTH_SOCK $HOME/.ssh/ssh_auth_sock
