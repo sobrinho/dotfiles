@@ -6,15 +6,12 @@ This is my dotfiles for Mac OS X.
 
 ## Usage
 
-Clone the repository:
-
-    $ git clone https://github.com/sobrinho/dotfiles.git
-
-And run the install:
-
-    $ cd dotfiles
-    $ sh install
+``` bash
+git clone https://github.com/sobrinho/dotfiles.git
+cd dotfiles
+./install
+```
 
 ## License
 
-Copyright (c) 2011-2013 Gabriel Sobrinho, released under the MIT license.
+Copyright (c) 2011-2015 Gabriel Sobrinho, released under the MIT license.
