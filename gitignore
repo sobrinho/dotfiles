@@ -1,6 +1,7 @@
 *.pyc
 *.sw?
 .DS_Store
+.idea
 .env
 .rbenv-version
 .ruby-version
