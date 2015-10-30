@@ -7,3 +7,4 @@
 .ruby-version
 .rvmrc
 vendor/bundle
+*.php
