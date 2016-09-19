@@ -1,6 +1,0 @@
-#!/usr/bin/env bash
-eval $(boot2docker shellinit 2>/dev/null)
-
-docker-ip () {
-  docker inspect -f '{{.NetworkSettings.IPAddress}}' $@
-}
