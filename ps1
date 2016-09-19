@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-GREEN="\[\033[0;32m\]"
+CYAN="\[\033[0;36m\]"
 WHITE="\[\033[0;37m\]"
 NO_COLOR="\[\033[0;00m\]"
 
@@ -13,5 +13,11 @@ if ! command -v __git_ps1 > /dev/null; then
 fi
 
 # /usr/src/app (master)
-# λ
-PS1="$NO_COLOR\n\w $GREEN\$(__git_ps1 '(%s)')\n${WHITE}λ$NO_COLOR "
+# 0 λ
+set_prompt () {
+  local Last_Command=$?
+
+  PS1="$NO_COLOR\n\w $CYAN\$(__git_ps1 '%s')\n${WHITE}${Last_Command} λ$NO_COLOR "
+}
+
+PROMPT_COMMAND='set_prompt'
