@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+if [ -f /usr/local/bin/fzf ]; then
+  export FZF_DEFAULT_COMMAND='(ag -l -g "" || find * -name ".*" -prune -o -type f -print -o -type l -print) 2>/dev/null'
+
+  source $(brew --prefix fzf)/shell/key-bindings.bash
+fi
