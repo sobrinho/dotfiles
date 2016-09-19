@@ -12,6 +12,14 @@ cd dotfiles
 ./install
 ```
 
+## Homebrew
+
+You probably want to install [homebrew](http://brew.sh) and install the following packages for better environment:
+
+``` bash
+brew install bash-completion homebrew/dupes/screen vim fzf ag
+```
+
 ## License
 
 Copyright (c) 2011-2015 Gabriel Sobrinho, released under the MIT license.
