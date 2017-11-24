@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-CYAN="\[\033[0;36m\]"
+GREEN="\[\033[0;92m\]"
 WHITE="\[\033[0;37m\]"
 NO_COLOR="\[\033[0;00m\]"
 
@@ -17,7 +17,8 @@ fi
 set_prompt () {
   local Last_Command=$?
 
-  PS1="$NO_COLOR\n\w $CYAN\$(__git_ps1 '%s')\n${WHITE}${Last_Command} λ$NO_COLOR "
+  # PS1="$NO_COLOR\n\w $GREEN\$(__git_ps1 '%s')\n${WHITE}${Last_Command} λ$NO_COLOR "
+  PS1="\n${WHITE}\$$NO_COLOR "
 }
 
 PROMPT_COMMAND='set_prompt'
