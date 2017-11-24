@@ -9,3 +9,4 @@ source $DOTFILES_PATH/heroku
 source $DOTFILES_PATH/fzf
 source $DOTFILES_PATH/less
 source $DOTFILES_PATH/ps1
+source $DOTFILES_PATH/history

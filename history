@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+HISTCONTROL=ignoreboth
+HISTSIZE=4096
+HISTFILESIZE=4096
+
+shopt -s histappend histreedit

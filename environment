@@ -3,6 +3,6 @@ export EDITOR=vim
 export LC_ALL=en_US.UTF-8
 
 # See http://www.gnu.org/software/bash/manual/html_node/The-Shopt-Builtin.html
-for option in cdspell histappend histreedit no_empty_cmd_completion; do
+for option in cdspell no_empty_cmd_completion; do
   shopt -s $option
 done
