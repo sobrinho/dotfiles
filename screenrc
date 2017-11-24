@@ -1,5 +1,39 @@
+defscrollback 10000
+term xterm-256color
+truecolor on
+
 startup_message off
 altscreen on
-hardstatus alwayslastline '%{= kG}%{g}[ %{G}%H %{g}][%= %{= kw}%?%-Lw%?%{r}(%{W}%n*%f%t%?(%u)%?%{r})%{w}%?%+Lw%?%?%= %{g}][%{B} %d/%m %{W}%c %{g}]'
-defscrollback 10000
-term screen-256color
+
+backtick 0 0 1 date "+%d/%m/%Y"
+backtick 1 0 1 date "+%H:%M:%S"
+
+hardstatus alwayslastline
+hardstatus string '%{2}[ %{7}%H %{2}][%= %{7}%-w%{1}%n %t%{7}%+w %=%{2}][ %{7}%0` %1` %{2}]'
+
+# http://www.gnu.org/software/screen/manual/html_node/String-Escapes.html
+
+# %{?}  Color
+# 0	Black
+# 1	Red
+# 2	Green
+# 3	Yellow
+# 4	Blue
+# 5	Magenta
+# 6	Cyan
+# 7	White
+
+# %H      : hostname
+# %=      : expand to fill all space
+# %-Lw    : list windows before current window (L [optional] = "include flags")
+# %n      : window number
+# %f      : window flags
+# %t      : window title
+# %+Lw    : list windows after current window (L [optional] = "include flags")
+# %C      : current time (12-hr; 24-hr is %c)
+
+# Hide hardstatus: ctrl-a f
+bind f eval "hardstatus ignore"
+
+# Show hardstatus: ctrl-a F
+bind F eval "hardstatus alwayslastline"
