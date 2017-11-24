@@ -1,9 +1,12 @@
 *.pyc
-*.swp
+*.sw?
 .DS_Store
-.idea
 .env
+.idea
 .rbenv-version
 .ruby-version
 .rvmrc
+.tags
 vendor/bundle
+
+!*.swf
