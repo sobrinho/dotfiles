@@ -2,3 +2,7 @@
 if command -v rbenv > /dev/null; then
   eval "$(rbenv init -)"
 fi
+
+# Use brew's readline
+# See https://github.com/rbenv/ruby-build/wiki#trouble-with-irb-or-pry
+export RUBY_CONFIGURE_OPTS=--with-readline-dir="/usr/local/opt/readline"
